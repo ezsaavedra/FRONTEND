@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+</head>
+<body>
+    <h1>PASTELERIA EL PASTELITO</h1>
+    <img src="https://previews.dropbox.com/p/thumb/ABd876BPHnVswJUpDBCN9YasCLmPHeGC69Z-qcddMXXhtyti0i3_NHoG3PnRai4r3xr1kOpPJCESxvneHklJSxxxovA5QBbtQlWxfHYww_fch_Gr6wXzd4MVYpQkgJagEF_xONz1mS9_CR26LrrZhebDRQFF6mbr5czE2n_8HvFtejseQhx0ld3QarE61cB07YLYgdUaK1CSK9HS6LIPTupPyi9Q_5Mvfj_vB8zsoBpKRsdXCnIdz4nm8u8VP5aopbRnFA-cb6obGK8neWE1y8Z904upf4PG8i1bidLBOBYgHDSywZOC0A3lNVZ5L44avypOpClhRLXUmFt4Ca5BUJ9tMMmqoRs06E5sKKu_NdcRrg/p.jpeg"width="400" alt="logo"/>
+    <h2>Bienvenido: Aqui puedes encontrar todo lo que tenemos disponible para ti y realizar tu pedido.</h2>
+    <hr><br>
+    <h3>Sabores Disponibles:</h3><br>
+    <p>-Chocolate<br>-Vainilla<br>-Fresa<br>-Cafe<br>Trufa<br></p>
+    <hr>
+    <h3>Adornos para pastel:</h3><br>
+    <p>-Obleas Comestibles<br>-Dulces<br>-Perlas Comestibles<br>-Flores<br>-Uvas</p>
+    <hr><br>
+    <h2>Realizar Pedido</h2>
+    <h3>Datos de Contacto:</h3>
+    <form>
+        <label for="nombre">Nombre: </label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellido">Apellido: </label><br>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="telefono">Telefono: </label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="correo">Correo Electronico: </label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="comentario">Ingrese detalles de su pedido:</label><br>
+        <textarea rows=10 cols= 40 id="comentario" placeholder="Detalles de su pedido..." name="comentario" value="">
+        </textarea><br><hr>
+
+        <h3>Selecciona 1 de nuestros sabores.</h3>
+        <select id="sabor" name="sabor">
+            <option value="chocolate">chocolate</option>
+            <option value="vainilla">Vainilla</option>
+            <option value="fresa">Fresa</option>
+            <option value="cafe">Cafe</option>
+            <option value="trufa">Trufa</option>
+        </select><br><br>
+        <h3>Agregar adorno a su pastel?</h3>
+        <select id="adorno" name="adorno">
+            <option value="ninguno">Ninguno</option>
+            <option value="obleas">Obleas comestibles</option>
+            <option value="dulces">Dulces</option>
+            <option value="perlas">Perlas comestibles</option>
+            <option value="flores">Flores</option>
+            <option value="uvas">Uvas</option>
+        </select><br><br>
+        <button type="button">Realizar Pedido</button>
+
+
+        
+
+
+
+
+    </form>  
+</body>
+</html>
